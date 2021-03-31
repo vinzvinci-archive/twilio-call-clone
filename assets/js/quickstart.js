@@ -8,7 +8,7 @@
   var device;
 
   log('Requesting Capability Token...');
-  $.getJSON('https://blue-chamois-4051.twil.io/client-voice')
+  $.getJSON('https://blue-chamois-4051.twil.io/capability-token')
     .then(function (data) {
       log('Got a token.');
       console.log('Token: ' + data.token);
